@@ -1,0 +1,1 @@
+/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_generator_py/nav_hw_interfaces/msg/_waypoint_s.c

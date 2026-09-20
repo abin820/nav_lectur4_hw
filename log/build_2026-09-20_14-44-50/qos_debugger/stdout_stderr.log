@@ -1,0 +1,33 @@
+Consolidate compiler generated dependencies of target qos_debugger_pub
+Consolidate compiler generated dependencies of target qos_debugger_sub
+[ 50%] Building CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o
+[ 50%] Building CXX object CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:4:1: warning: multi-line comment [-Wcomment]
+    4 | //   ros2 run qos_debugger qos_debugger_pub \
+      | ^
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:8:1: warning: multi-line comment [-Wcomment]
+    8 | //   ros2 run qos_debugger qos_debugger_sub \
+      | ^
+[ 75%] Linking CXX executable qos_debugger_pub
+[ 75%] Built target qos_debugger_pub
+[100%] Linking CXX executable qos_debugger_sub
+[100%] Built target qos_debugger_sub
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/lib/qos_debugger/qos_debugger_pub
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/lib/qos_debugger/qos_debugger_sub
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/package_run_dependencies/qos_debugger
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/parent_prefix_path/qos_debugger
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.sh
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.dsv
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/path.sh
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/path.dsv
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.bash
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.sh
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.zsh
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.dsv
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.dsv
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/packages/qos_debugger
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig.cmake
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig-version.cmake
+-- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/abin/nav_lecture4_hw/build/qos_debugger/qos_debugger_pub" "/home/abin/nav_lecture4_hw/build/qos_debugger/qos_debugger_sub" "TARGETS" "qos_debugger_pub" "qos_debugger_sub" "DESTINATION" "lib/qos_debugger")

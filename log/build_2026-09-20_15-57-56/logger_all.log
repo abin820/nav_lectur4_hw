@@ -1,0 +1,215 @@
+[0.555s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.555s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70ff81b3ffd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70ff81b3fa90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70ff81b3fa90>>)
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.797s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abin/nav_lecture4_hw'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_hw_interfaces) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_hw_interfaces' with type 'ros.ament_cmake' and name 'nav_hw_interfaces'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/qos_debugger) by extension 'ros'
+[0.815s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qos_debugger' with type 'ros.ament_cmake' and name 'qos_debugger'
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/abin/nav_lecture4_hw/install
+[0.847s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.911s] DEBUG:colcon.colcon_core.verb:Building package 'nav_hw_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces', 'merge_install': False, 'path': '/home/abin/nav_lecture4_hw/src/nav_hw_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_first' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_force_configure' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'ament_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.911s] DEBUG:colcon.colcon_core.verb:Building package 'qos_debugger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abin/nav_lecture4_hw/build/qos_debugger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abin/nav_lecture4_hw/install/qos_debugger', 'merge_install': False, 'path': '/home/abin/nav_lecture4_hw/src/qos_debugger', 'symlink_install': False, 'test_result_base': None}
+[0.911s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abin/nav_lecture4_hw/src/nav_hw_interfaces' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abin/nav_lecture4_hw/src/nav_hw_interfaces'
+[0.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/nav_hw_interfaces -- -j24 -l24
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/nav_hw_interfaces -- -j24 -l24
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/nav_hw_interfaces
+[1.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_hw_interfaces)
+[1.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/nav_hw_interfaces
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces' for CMake module files
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'cmake_prefix_path')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib'
+[1.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'ld_library_path_lib')
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/bin'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/pkgconfig/nav_hw_interfaces.pc'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/python3.10/site-packages'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/bin'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.sh'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.bash'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.zsh'
+[1.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/colcon-core/packages/nav_hw_interfaces)
+[1.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_hw_interfaces)
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces' for CMake config files
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'cmake_prefix_path')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.ps1'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.sh'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib'
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'ld_library_path_lib')
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/pkgconfig/nav_hw_interfaces.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/python3.10/site-packages'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/bin'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/colcon-core/packages/nav_hw_interfaces)
+[1.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abin/nav_lecture4_hw/src/qos_debugger' with build type 'ament_cmake'
+[1.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abin/nav_lecture4_hw/src/qos_debugger'
+[1.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abin/nav_lecture4_hw/build/qos_debugger': CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/home/abin/nav_lecture4_hw/install/qos_debugger:/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/qos_debugger -- -j24 -l24
+[7.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abin/nav_lecture4_hw/build/qos_debugger' returned '0': CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/home/abin/nav_lecture4_hw/install/qos_debugger:/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/qos_debugger -- -j24 -l24
+[7.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abin/nav_lecture4_hw/build/qos_debugger': CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/home/abin/nav_lecture4_hw/install/qos_debugger:/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/qos_debugger
+[7.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[7.951s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger' for CMake module files
+[7.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abin/nav_lecture4_hw/build/qos_debugger' returned '0': CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/home/abin/nav_lecture4_hw/install/qos_debugger:/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/qos_debugger
+[7.951s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger' for CMake config files
+[7.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[7.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[7.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[7.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/bin'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib/python3.10/site-packages'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/bin'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.ps1'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.dsv'
+[7.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.sh'
+[7.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.bash'
+[7.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.zsh'
+[7.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abin/nav_lecture4_hw/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[7.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[7.956s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger' for CMake module files
+[7.957s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger' for CMake config files
+[7.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[7.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[7.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[7.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/bin'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/lib/python3.10/site-packages'
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/abin/nav_lecture4_hw/install/qos_debugger/bin'
+[7.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.ps1'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.dsv'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.sh'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.bash'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.zsh'
+[7.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abin/nav_lecture4_hw/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[7.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.960s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.132s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[8.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.133s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.133s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.134s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[8.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abin/nav_lecture4_hw/install/local_setup.ps1'
+[8.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abin/nav_lecture4_hw/install/_local_setup_util_ps1.py'
+[8.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abin/nav_lecture4_hw/install/setup.ps1'
+[8.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abin/nav_lecture4_hw/install/local_setup.sh'
+[8.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abin/nav_lecture4_hw/install/_local_setup_util_sh.py'
+[8.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abin/nav_lecture4_hw/install/setup.sh'
+[8.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abin/nav_lecture4_hw/install/local_setup.bash'
+[8.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abin/nav_lecture4_hw/install/setup.bash'
+[8.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abin/nav_lecture4_hw/install/local_setup.zsh'
+[8.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abin/nav_lecture4_hw/install/setup.zsh'

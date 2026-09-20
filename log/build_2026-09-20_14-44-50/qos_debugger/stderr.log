@@ -1,0 +1,6 @@
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:4:1: warning: multi-line comment [-Wcomment]
+    4 | //   ros2 run qos_debugger qos_debugger_pub \
+      | ^
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:8:1: warning: multi-line comment [-Wcomment]
+    8 | //   ros2 run qos_debugger qos_debugger_sub \
+      | ^

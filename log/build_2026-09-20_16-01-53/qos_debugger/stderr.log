@@ -1,0 +1,11 @@
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp: In constructor ‘SensorSubscriber::SensorSubscriber()’:
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:69:11: warning: ignoring return value of ‘rclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr rclcpp::Node::add_on_set_parameters_callback(rclcpp::Node::OnParametersSetCallbackType)’, declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   69 |         });
+      |           ^
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:18:
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:934:3: note: declared here
+  934 |   add_on_set_parameters_callback(OnParametersSetCallbackType callback);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

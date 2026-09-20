@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_hw_interfaces: 0.0.0 (/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abin/nav_lecture4_hw/build/qos_debugger
+[ 50%] Building CXX object CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o
+[ 50%] Building CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:8:1: warning: multi-line comment [-Wcomment]
+    8 | //   ros2 run qos_debugger qos_debugger_sub \
+      | ^
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:4:1: warning: multi-line comment [-Wcomment]
+    4 | //   ros2 run qos_debugger qos_debugger_pub \
+      | ^
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp: In constructor ‘SensorPublisher::SensorPublisher()’:
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:35:20: warning: parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   35 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:35:20: note: replace parentheses with braces to declare a variable
+   35 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    -
+      |                    {                       -
+      |                                            }
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:37:11: error: request for member ‘reliability’ in ‘qos’, which is of non-class type ‘rclcpp::QoS(rclcpp::KeepLast)’
+   37 |       qos.reliability(rclcpp::ReliabilityPolicy::BestEffort);
+      |           ^~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:39:11: error: request for member ‘reliability’ in ‘qos’, which is of non-class type ‘rclcpp::QoS(rclcpp::KeepLast)’
+   39 |       qos.reliability(rclcpp::ReliabilityPolicy::Reliable);
+      |           ^~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:42:76: error: no matching function for call to ‘SensorPublisher::create_publisher<nav_hw_interfaces::msg::SensorData>(const char [12], rclcpp::QoS (&)(rclcpp::KeepLast))’
+   42 |     publisher_ = this->create_publisher<nav_hw_interfaces::msg::SensorData>("sensor_data", qos);
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:15:
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3: note: candidate: ‘template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)’
+  195 |   create_publisher(
+      |   ^~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3: note:   template argument deduction/substitution failed:
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:42:92: note:   cannot convert ‘qos’ (type ‘rclcpp::QoS(rclcpp::KeepLast)’) to type ‘const rclcpp::QoS&’
+   42 |     publisher_ = this->create_publisher<nav_hw_interfaces::msg::SensorData>("sensor_data", qos);
+      |                                                                                            ^~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp: In constructor ‘SensorSubscriber::SensorSubscriber()’:
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:37:20: warning: parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:37:20: note: replace parentheses with braces to declare a variable
+   37 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    -
+      |                    {                       -
+      |                                            }
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:39:11: error: request for member ‘reliability’ in ‘qos’, which is of non-class type ‘rclcpp::QoS(rclcpp::KeepLast)’
+   39 |       qos.reliability(rclcpp::ReliabilityPolicy::BestEffort);
+      |           ^~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:41:11: error: request for member ‘reliability’ in ‘qos’, which is of non-class type ‘rclcpp::QoS(rclcpp::KeepLast)’
+   41 |       qos.reliability(rclcpp::ReliabilityPolicy::Reliable);
+      |           ^~~~~~~~~~~
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:44:82: error: no matching function for call to ‘SensorSubscriber::create_subscription<nav_hw_interfaces::msg::SensorData>(const char [12], rclcpp::QoS (&)(rclcpp::KeepLast), std::_Bind_helper<false, void (SensorSubscriber::*)(std::shared_ptr<nav_hw_interfaces::msg::SensorData_<std::allocator<void> > >), SensorSubscriber*, const std::_Placeholder<1>&>::type)’
+   44 |     subscription_ = this->create_subscription<nav_hw_interfaces::msg::SensorData>(
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   45 |       "sensor_data", qos,
+      |       ~~~~~~~~~~~~~~~~~~~                                                         
+   46 |       std::bind(&SensorSubscriber::topic_callback, this, std::placeholders::_1));
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:18:
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3: note: candidate: ‘template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)’
+  219 |   create_subscription(
+      |   ^~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3: note:   template argument deduction/substitution failed:
+/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:45:22: note:   cannot convert ‘qos’ (type ‘rclcpp::QoS(rclcpp::KeepLast)’) to type ‘const rclcpp::QoS&’
+   45 |       "sensor_data", qos,
+      |                      ^~~
+gmake[2]: *** [CMakeFiles/qos_debugger_sub.dir/build.make:76: CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/qos_debugger_sub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/qos_debugger_pub.dir/build.make:76: CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/qos_debugger_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

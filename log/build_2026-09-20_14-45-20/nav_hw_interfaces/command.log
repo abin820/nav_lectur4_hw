@@ -1,0 +1,4 @@
+Invoking command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/nav_hw_interfaces -- -j24 -l24
+Invoked command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/nav_hw_interfaces -- -j24 -l24
+Invoking command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/nav_hw_interfaces
+Invoked command in '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/nav_hw_interfaces

@@ -1,0 +1,6 @@
+# 导航目标点 / 路径点（可选：用于演示持久性 durability 与 latching）
+
+std_msgs/Header header
+float32 x    # 目标点 x 坐标 m
+float32 y    # 目标点 y 坐标 m
+float32 yaw  # 期望朝向 rad

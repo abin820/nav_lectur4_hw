@@ -1,0 +1,6 @@
+# 机器人状态（最基础的话题通信练习：一个节点发、一个节点收）
+
+string name      # 机器人名字
+float32 battery  # 电量百分比 0.0 ~ 100.0
+float32 speed    # 当前速度 m/s
+int32 status     # 0=idle, 1=moving, 2=charging, 3=error

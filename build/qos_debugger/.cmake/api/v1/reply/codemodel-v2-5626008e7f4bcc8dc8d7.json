@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2a8f20e2833aafff5363.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qos_debugger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qos_debugger_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qos_debugger_pub-9f1ed4de1a5840db7e72.json",
+					"name" : "qos_debugger_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qos_debugger_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qos_debugger_sub-806b32c02ff544fbedc3.json",
+					"name" : "qos_debugger_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qos_debugger_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qos_debugger_uninstall-cfe9889ddd41171b53ec.json",
+					"name" : "qos_debugger_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4026557f1a64d86ba474.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abin/nav_lecture4_hw/build/qos_debugger",
+		"source" : "/home/abin/nav_lecture4_hw/src/qos_debugger"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,37 @@
+[0.339s] Invoking command in '/home/abin/nav_lecture4_hw/build/qos_debugger': AMENT_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/qos_debugger -- -j24 -l24
+[0.366s] Consolidate compiler generated dependencies of target qos_debugger_pub
+[0.366s] Consolidate compiler generated dependencies of target qos_debugger_sub
+[0.375s] [ 50%] Building CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o
+[0.375s] [ 50%] Building CXX object CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o
+[0.380s] /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:4:1: warning: multi-line comment [-Wcomment]
+[0.380s]     4 | //   ros2 run qos_debugger qos_debugger_pub \
+[0.380s]       | ^
+[0.380s] /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:8:1: warning: multi-line comment [-Wcomment]
+[0.380s]     8 | //   ros2 run qos_debugger qos_debugger_sub \
+[0.380s]       | ^
+[3.319s] [ 75%] Linking CXX executable qos_debugger_pub
+[4.092s] [ 75%] Built target qos_debugger_pub
+[5.683s] [100%] Linking CXX executable qos_debugger_sub
+[6.244s] [100%] Built target qos_debugger_sub
+[6.252s] Invoked command in '/home/abin/nav_lecture4_hw/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abin/nav_lecture4_hw/build/qos_debugger -- -j24 -l24
+[6.254s] Invoking command in '/home/abin/nav_lecture4_hw/build/qos_debugger': AMENT_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/qos_debugger
+[6.259s] -- Install configuration: ""
+[6.259s] -- Execute custom install script
+[6.259s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/lib/qos_debugger/qos_debugger_pub
+[6.266s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/lib/qos_debugger/qos_debugger_sub
+[6.274s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/package_run_dependencies/qos_debugger
+[6.278s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/parent_prefix_path/qos_debugger
+[6.284s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.sh
+[6.290s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.dsv
+[6.297s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/path.sh
+[6.303s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/environment/path.dsv
+[6.309s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.bash
+[6.316s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.sh
+[6.321s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.zsh
+[6.328s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/local_setup.dsv
+[6.334s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.dsv
+[6.340s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/ament_index/resource_index/packages/qos_debugger
+[6.345s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig.cmake
+[6.350s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig-version.cmake
+[6.355s] -- Symlinking: /home/abin/nav_lecture4_hw/install/qos_debugger/share/qos_debugger/package.xml
+[6.362s] Invoked command in '/home/abin/nav_lecture4_hw/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abin/nav_lecture4_hw/build/qos_debugger

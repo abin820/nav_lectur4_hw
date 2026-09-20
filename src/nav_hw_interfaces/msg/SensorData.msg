@@ -1,0 +1,7 @@
+# 传感器数据（用于演示 QoS 可靠性 / 队列深度 depth 与丢包）
+# seq 是递增序号：sub 只要发现 seq 跳号，就说明中间有消息丢了
+
+std_msgs/Header header  # 时间戳与坐标系（为后续 TF / 传感器打好基础）
+uint32 seq              # 递增序号，用于检测丢包
+float32 distance        # 单个距离读数 m
+float32[] ranges        # 一圈测距值（变长数组）

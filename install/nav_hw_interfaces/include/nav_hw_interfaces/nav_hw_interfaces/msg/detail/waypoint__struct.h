@@ -1,0 +1,1 @@
+/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_generator_c/nav_hw_interfaces/msg/detail/waypoint__struct.h

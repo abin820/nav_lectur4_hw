@@ -1,0 +1,771 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (nav_hw_interfaces) JobQueued: {'identifier': 'nav_hw_interfaces', 'dependencies': OrderedDict()}
+[0.000506] (qos_debugger) JobQueued: {'identifier': 'qos_debugger', 'dependencies': OrderedDict([('nav_hw_interfaces', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces')])}
+[0.000529] (nav_hw_interfaces) JobStarted: {'identifier': 'nav_hw_interfaces'}
+[0.007680] (nav_hw_interfaces) JobProgress: {'identifier': 'nav_hw_interfaces', 'progress': 'cmake'}
+[0.008364] (nav_hw_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/abin/nav_lecture4_hw/src/nav_hw_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/abin/nav_lecture4_hw/install/nav_hw_interfaces'], 'cwd': '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/d/vscode/Microsoft VS Code'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-269_agent'), ('USER', 'abin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/wenbin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.269'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '381db5bbf5ca21a5b23e52265d771945'), ('HOME', '/home/abin'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('NVM_BIN', '/home/abin/.nvm/versions/node/v22.23.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5c643ca7-aa83-4286-8ab6-71fb963d668e.sock'), ('NVM_INC', '/home/abin/.nvm/versions/node/v22.23.2/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('ROS_PYTHON_VERSION', '3'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('ANTHROPIC_SMALL_FAST_MODEL', 'deepseek-v4-pro'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/abin/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('API_TIMEOUT_MS', '600000'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/7705_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/abin/.local/bin:/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/abin/.local/bin:/home/abin/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Opencv/dep/bin/x64:/mnt/d/Opencv/dep/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/Miniconda3:/mnt/c/ProgramData/Miniconda3/Scripts:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/Tools/pkg-config/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.0/:/mnt/d/Qt/Qt-6.10.2-Static/bin:/mnt/d/opencv_prebuild/opencv/build/bin/Release:/mnt/d/Tools/opencv-install/x64/mingw/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Node.js/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/GnuWin32/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/wenbin/AppData/Local/pnpm/bin:/mnt/c/Users/wenbin/.espressif/eim_gui:/mnt/c/Users/wenbin/scoop/apps/python/current/Scripts:/mnt/c/Users/wenbin/scoop/apps/python/current:/mnt/c/Users/wenbin/scoop/shims:/mnt/c/Users/wenbin/scoop:/mnt/c/Users/wenbin/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/PyCharm Community Edition 2024.2.1/bin:/mnt/c/Users/wenbin/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/wenbin/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Users/wenbin/AppData/Roaming/npm:/mnt/c/Users/wenbin/.dotnet/tools:/snap/bin:/mnt/d/trae/Trae\\ CN/bin:/mnt/d/trae/Trae\\ CN/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '10589'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'C.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-pro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-1a7a97ab23f24decbdd526f120ffa63b'), ('MXC_BIN_DIR', '/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node_modules/@microsoft/mxc-sdk/bin'), ('ELECTRON_RUN_AS_NODE', '1'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'd9008393-0077-458c-8331-515512e99ddc'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces'), ('GEMINI_API_KEY', 'AIzaSyB8I3FRlkOawu2ZgdGHKhfeGCBWxy3DQmw'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/abin/.vscode-server/extensions/anthropic.claude-code-2.1.269-linux-x64/resources/native-binary/claude'), ('CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('HOSTTYPE', 'x86_64'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/10589.sock'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.105357] (-) TimerEvent: {}
+[0.205724] (-) TimerEvent: {}
+[0.310726] (-) TimerEvent: {}
+[0.413774] (-) TimerEvent: {}
+[0.425155] (nav_hw_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.514870] (-) TimerEvent: {}
+[0.618134] (-) TimerEvent: {}
+[0.718621] (-) TimerEvent: {}
+[0.825902] (-) TimerEvent: {}
+[0.926413] (-) TimerEvent: {}
+[1.032783] (-) TimerEvent: {}
+[1.141163] (-) TimerEvent: {}
+[1.241664] (-) TimerEvent: {}
+[1.342877] (-) TimerEvent: {}
+[1.445606] (-) TimerEvent: {}
+[1.555756] (-) TimerEvent: {}
+[1.663645] (-) TimerEvent: {}
+[1.764465] (-) TimerEvent: {}
+[1.866343] (-) TimerEvent: {}
+[1.971717] (-) TimerEvent: {}
+[2.072076] (-) TimerEvent: {}
+[2.090416] (nav_hw_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.174871] (-) TimerEvent: {}
+[2.285083] (-) TimerEvent: {}
+[2.388340] (-) TimerEvent: {}
+[2.498592] (-) TimerEvent: {}
+[2.601280] (-) TimerEvent: {}
+[2.711476] (-) TimerEvent: {}
+[2.821751] (-) TimerEvent: {}
+[2.928533] (-) TimerEvent: {}
+[3.029337] (-) TimerEvent: {}
+[3.139479] (-) TimerEvent: {}
+[3.249629] (-) TimerEvent: {}
+[3.350424] (-) TimerEvent: {}
+[3.450710] (-) TimerEvent: {}
+[3.502496] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.555619] (-) TimerEvent: {}
+[3.658509] (-) TimerEvent: {}
+[3.766881] (-) TimerEvent: {}
+[3.842500] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.846699] (nav_hw_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.847145] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.847826] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.850390] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.866972] (-) TimerEvent: {}
+[3.967169] (-) TimerEvent: {}
+[4.072785] (-) TimerEvent: {}
+[4.180116] (-) TimerEvent: {}
+[4.214107] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.218365] (nav_hw_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.218511] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.218851] (nav_hw_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.231052] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.281954] (-) TimerEvent: {}
+[4.325114] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.374882] (nav_hw_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.382744] (-) TimerEvent: {}
+[4.400300] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.403973] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.410048] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.483264] (-) TimerEvent: {}
+[4.583593] (-) TimerEvent: {}
+[4.691485] (-) TimerEvent: {}
+[4.799240] (-) TimerEvent: {}
+[4.802224] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.837478] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.903650] (-) TimerEvent: {}
+[5.004017] (-) TimerEvent: {}
+[5.046283] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.105481] (-) TimerEvent: {}
+[5.186925] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.207613] (-) TimerEvent: {}
+[5.308004] (-) TimerEvent: {}
+[5.368977] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.408293] (-) TimerEvent: {}
+[5.509075] (-) TimerEvent: {}
+[5.618271] (-) TimerEvent: {}
+[5.718814] (-) TimerEvent: {}
+[5.819244] (-) TimerEvent: {}
+[5.925367] (-) TimerEvent: {}
+[5.960416] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.962544] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.030113] (-) TimerEvent: {}
+[6.130398] (-) TimerEvent: {}
+[6.240583] (-) TimerEvent: {}
+[6.350769] (-) TimerEvent: {}
+[6.458026] (-) TimerEvent: {}
+[6.563795] (-) TimerEvent: {}
+[6.666680] (-) TimerEvent: {}
+[6.770136] (-) TimerEvent: {}
+[6.870836] (-) TimerEvent: {}
+[6.979229] (-) TimerEvent: {}
+[7.089389] (-) TimerEvent: {}
+[7.194090] (-) TimerEvent: {}
+[7.299527] (-) TimerEvent: {}
+[7.400035] (-) TimerEvent: {}
+[7.440379] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.440507] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.440540] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.440568] (nav_hw_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.454385] (nav_hw_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.504784] (-) TimerEvent: {}
+[7.607095] (-) TimerEvent: {}
+[7.713178] (-) TimerEvent: {}
+[7.781105] (nav_hw_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.814395] (nav_hw_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.814514] (-) TimerEvent: {}
+[7.822595] (nav_hw_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/abin/nav_lecture4_hw/build/nav_hw_interfaces\n'}
+[7.828026] (nav_hw_interfaces) CommandEnded: {'returncode': 0}
+[7.829081] (nav_hw_interfaces) JobProgress: {'identifier': 'nav_hw_interfaces', 'progress': 'build'}
+[7.829110] (nav_hw_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces', '--', '-j24', '-l24'], 'cwd': '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/d/vscode/Microsoft VS Code'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-269_agent'), ('USER', 'abin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/wenbin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.269'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '381db5bbf5ca21a5b23e52265d771945'), ('HOME', '/home/abin'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('NVM_BIN', '/home/abin/.nvm/versions/node/v22.23.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5c643ca7-aa83-4286-8ab6-71fb963d668e.sock'), ('NVM_INC', '/home/abin/.nvm/versions/node/v22.23.2/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('ROS_PYTHON_VERSION', '3'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('ANTHROPIC_SMALL_FAST_MODEL', 'deepseek-v4-pro'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/abin/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('API_TIMEOUT_MS', '600000'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/7705_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/abin/.local/bin:/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/abin/.local/bin:/home/abin/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Opencv/dep/bin/x64:/mnt/d/Opencv/dep/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/Miniconda3:/mnt/c/ProgramData/Miniconda3/Scripts:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/Tools/pkg-config/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.0/:/mnt/d/Qt/Qt-6.10.2-Static/bin:/mnt/d/opencv_prebuild/opencv/build/bin/Release:/mnt/d/Tools/opencv-install/x64/mingw/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Node.js/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/GnuWin32/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/wenbin/AppData/Local/pnpm/bin:/mnt/c/Users/wenbin/.espressif/eim_gui:/mnt/c/Users/wenbin/scoop/apps/python/current/Scripts:/mnt/c/Users/wenbin/scoop/apps/python/current:/mnt/c/Users/wenbin/scoop/shims:/mnt/c/Users/wenbin/scoop:/mnt/c/Users/wenbin/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/PyCharm Community Edition 2024.2.1/bin:/mnt/c/Users/wenbin/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/wenbin/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Users/wenbin/AppData/Roaming/npm:/mnt/c/Users/wenbin/.dotnet/tools:/snap/bin:/mnt/d/trae/Trae\\ CN/bin:/mnt/d/trae/Trae\\ CN/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '10589'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'C.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-pro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-1a7a97ab23f24decbdd526f120ffa63b'), ('MXC_BIN_DIR', '/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node_modules/@microsoft/mxc-sdk/bin'), ('ELECTRON_RUN_AS_NODE', '1'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'd9008393-0077-458c-8331-515512e99ddc'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces'), ('GEMINI_API_KEY', 'AIzaSyB8I3FRlkOawu2ZgdGHKhfeGCBWxy3DQmw'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/abin/.vscode-server/extensions/anthropic.claude-code-2.1.269-linux-x64/resources/native-binary/claude'), ('CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('HOSTTYPE', 'x86_64'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/10589.sock'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.853670] (nav_hw_interfaces) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[7.859693] (nav_hw_interfaces) StdoutLine: {'line': b'[  4%] Generating C++ code for ROS interfaces\n'}
+[7.859808] (nav_hw_interfaces) StdoutLine: {'line': b'[  6%] Generating Rust code for ROS interfaces\n'}
+[7.865141] (nav_hw_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_nav_hw_interfaces\n'}
+[7.915089] (-) TimerEvent: {}
+[8.013631] (nav_hw_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.014068] (nav_hw_interfaces) StdoutLine: {'line': b'creating nav_hw_interfaces.egg-info\n'}
+[8.014826] (nav_hw_interfaces) StdoutLine: {'line': b'writing nav_hw_interfaces.egg-info/PKG-INFO\n'}
+[8.015206] (nav_hw_interfaces) StdoutLine: {'line': b'writing dependency_links to nav_hw_interfaces.egg-info/dependency_links.txt\n'}
+[8.015271] (-) TimerEvent: {}
+[8.015283] (nav_hw_interfaces) StdoutLine: {'line': b'writing top-level names to nav_hw_interfaces.egg-info/top_level.txt\n'}
+[8.015313] (nav_hw_interfaces) StdoutLine: {'line': b"writing manifest file 'nav_hw_interfaces.egg-info/SOURCES.txt'\n"}
+[8.017142] (nav_hw_interfaces) StdoutLine: {'line': b"reading manifest file 'nav_hw_interfaces.egg-info/SOURCES.txt'\n"}
+[8.017388] (nav_hw_interfaces) StdoutLine: {'line': b"writing manifest file 'nav_hw_interfaces.egg-info/SOURCES.txt'\n"}
+[8.034814] (nav_hw_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_nav_hw_interfaces_egg\n'}
+[8.088396] (nav_hw_interfaces) StdoutLine: {'line': b'[  6%] Built target nav_hw_interfaces__rs\n'}
+[8.115451] (-) TimerEvent: {}
+[8.141913] (nav_hw_interfaces) StdoutLine: {'line': b'[  6%] Built target nav_hw_interfaces__cpp\n'}
+[8.145062] (nav_hw_interfaces) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_hw_interfaces/msg/detail/robot_status__functions.c.o\n'}
+[8.145355] (nav_hw_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_hw_interfaces/msg/detail/sensor_data__functions.c.o\n'}
+[8.145440] (nav_hw_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_c.dir/rosidl_generator_c/nav_hw_interfaces/msg/detail/waypoint__functions.c.o\n'}
+[8.147805] (nav_hw_interfaces) StdoutLine: {'line': b'[ 16%] Generating C++ introspection for ROS interfaces\n'}
+[8.147945] (nav_hw_interfaces) StdoutLine: {'line': b'[ 16%] Generating C++ type support dispatch for ROS interfaces\n'}
+[8.148797] (nav_hw_interfaces) StdoutLine: {'line': b'[ 18%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[8.195043] (nav_hw_interfaces) StdoutLine: {'line': b'[ 20%] Linking C shared library libnav_hw_interfaces__rosidl_generator_c.so\n'}
+[8.215651] (-) TimerEvent: {}
+[8.322329] (-) TimerEvent: {}
+[8.388574] (nav_hw_interfaces) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_hw_interfaces/msg/sensor_data__type_support.cpp.o\n'}
+[8.388700] (nav_hw_interfaces) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_hw_interfaces/msg/robot_status__type_support.cpp.o\n'}
+[8.389011] (nav_hw_interfaces) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_hw_interfaces/msg/waypoint__type_support.cpp.o\n'}
+[8.398150] (nav_hw_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_hw_interfaces/msg/detail/sensor_data__type_support.cpp.o\n'}
+[8.398486] (nav_hw_interfaces) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_hw_interfaces/msg/detail/robot_status__type_support.cpp.o\n'}
+[8.398782] (nav_hw_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_hw_interfaces/msg/detail/waypoint__type_support.cpp.o\n'}
+[8.421198] (nav_hw_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_hw_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\n'}
+[8.421827] (nav_hw_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_hw_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o\n'}
+[8.422045] (nav_hw_interfaces) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_hw_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o\n'}
+[8.422905] (-) TimerEvent: {}
+[8.523144] (-) TimerEvent: {}
+[8.623504] (-) TimerEvent: {}
+[8.627996] (nav_hw_interfaces) StdoutLine: {'line': b'[ 41%] Linking CXX shared library libnav_hw_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.716144] (nav_hw_interfaces) StdoutLine: {'line': b'[ 43%] Linking CXX shared library libnav_hw_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.723733] (-) TimerEvent: {}
+[8.752578] (nav_hw_interfaces) StdoutLine: {'line': b'[ 45%] Linking CXX shared library libnav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.776408] (nav_hw_interfaces) StdoutLine: {'line': b'[ 45%] Built target nav_hw_interfaces__rosidl_generator_c\n'}
+[8.782578] (nav_hw_interfaces) StdoutLine: {'line': b'[ 52%] Generating C introspection for ROS interfaces\n'}
+[8.782690] (nav_hw_interfaces) StdoutLine: {'line': b'[ 52%] Generating C type support dispatch for ROS interfaces\n'}
+[8.782771] (nav_hw_interfaces) StdoutLine: {'line': b'[ 52%] Generating C type support for eProsima Fast-RTPS\n'}
+[8.823943] (-) TimerEvent: {}
+[8.924692] (-) TimerEvent: {}
+[9.016363] (nav_hw_interfaces) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_hw_interfaces/msg/waypoint__type_support.cpp.o\n'}
+[9.016497] (nav_hw_interfaces) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_hw_interfaces/msg/robot_status__type_support.cpp.o\n'}
+[9.016534] (nav_hw_interfaces) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_hw_interfaces/msg/sensor_data__type_support.cpp.o\n'}
+[9.025656] (-) TimerEvent: {}
+[9.038107] (nav_hw_interfaces) StdoutLine: {'line': b'[ 60%] Linking CXX shared library libnav_hw_interfaces__rosidl_typesupport_c.so\n'}
+[9.040200] (nav_hw_interfaces) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_hw_interfaces/msg/detail/robot_status__type_support.c.o\n'}
+[9.040298] (nav_hw_interfaces) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_hw_interfaces/msg/detail/sensor_data__type_support.c.o\n'}
+[9.041918] (nav_hw_interfaces) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_hw_interfaces/msg/detail/waypoint__type_support.c.o\n'}
+[9.047708] (nav_hw_interfaces) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_hw_interfaces/msg/detail/robot_status__type_support_c.cpp.o\n'}
+[9.047878] (nav_hw_interfaces) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_hw_interfaces/msg/detail/sensor_data__type_support_c.cpp.o\n'}
+[9.048162] (nav_hw_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_hw_interfaces/msg/detail/waypoint__type_support_c.cpp.o\n'}
+[9.067387] (nav_hw_interfaces) StdoutLine: {'line': b'[ 75%] Linking C shared library libnav_hw_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.126077] (-) TimerEvent: {}
+[9.226625] (-) TimerEvent: {}
+[9.250869] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libnav_hw_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.326794] (-) TimerEvent: {}
+[9.338524] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_cpp\n'}
+[9.385648] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.426911] (-) TimerEvent: {}
+[9.479254] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.528026] (-) TimerEvent: {}
+[9.574845] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.581169] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_c\n'}
+[9.628275] (-) TimerEvent: {}
+[9.730219] (-) TimerEvent: {}
+[9.759274] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.772374] (nav_hw_interfaces) StdoutLine: {'line': b'[ 77%] Built target nav_hw_interfaces\n'}
+[9.785116] (nav_hw_interfaces) StdoutLine: {'line': b'[ 79%] Generating Python code for ROS interfaces\n'}
+[9.830741] (-) TimerEvent: {}
+[9.930929] (-) TimerEvent: {}
+[10.039319] (-) TimerEvent: {}
+[10.146423] (-) TimerEvent: {}
+[10.218198] (nav_hw_interfaces) StdoutLine: {'line': b'[ 79%] Built target nav_hw_interfaces__py\n'}
+[10.233504] (nav_hw_interfaces) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_hw_interfaces/msg/_sensor_data_s.c.o\n'}
+[10.233698] (nav_hw_interfaces) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_hw_interfaces/msg/_robot_status_s.c.o\n'}
+[10.233762] (nav_hw_interfaces) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_generator_py.dir/rosidl_generator_py/nav_hw_interfaces/msg/_waypoint_s.c.o\n'}
+[10.246819] (-) TimerEvent: {}
+[10.345383] (nav_hw_interfaces) StdoutLine: {'line': b'[ 87%] Linking C shared library rosidl_generator_py/nav_hw_interfaces/libnav_hw_interfaces__rosidl_generator_py.so\n'}
+[10.346911] (-) TimerEvent: {}
+[10.447077] (-) TimerEvent: {}
+[10.552139] (-) TimerEvent: {}
+[10.653926] (-) TimerEvent: {}
+[10.754755] (-) TimerEvent: {}
+[10.862109] (-) TimerEvent: {}
+[10.890479] (nav_hw_interfaces) StdoutLine: {'line': b'[ 87%] Built target nav_hw_interfaces__rosidl_generator_py\n'}
+[10.902978] (nav_hw_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[10.903320] (nav_hw_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[10.903377] (nav_hw_interfaces) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/nav_hw_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[10.965573] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.965696] (-) TimerEvent: {}
+[10.965709] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.965740] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.075810] (-) TimerEvent: {}
+[11.176126] (-) TimerEvent: {}
+[11.271460] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Built target nav_hw_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.271588] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.271768] (nav_hw_interfaces) StdoutLine: {'line': b'[100%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.276350] (-) TimerEvent: {}
+[11.278930] (nav_hw_interfaces) CommandEnded: {'returncode': 0}
+[11.279743] (nav_hw_interfaces) JobProgress: {'identifier': 'nav_hw_interfaces', 'progress': 'install'}
+[11.284600] (nav_hw_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces'], 'cwd': '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/d/vscode/Microsoft VS Code'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-269_agent'), ('USER', 'abin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/wenbin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.269'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '381db5bbf5ca21a5b23e52265d771945'), ('HOME', '/home/abin'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('NVM_BIN', '/home/abin/.nvm/versions/node/v22.23.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5c643ca7-aa83-4286-8ab6-71fb963d668e.sock'), ('NVM_INC', '/home/abin/.nvm/versions/node/v22.23.2/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('ROS_PYTHON_VERSION', '3'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('ANTHROPIC_SMALL_FAST_MODEL', 'deepseek-v4-pro'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/abin/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('API_TIMEOUT_MS', '600000'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/7705_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/abin/.local/bin:/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/abin/.local/bin:/home/abin/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Opencv/dep/bin/x64:/mnt/d/Opencv/dep/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/Miniconda3:/mnt/c/ProgramData/Miniconda3/Scripts:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/Tools/pkg-config/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.0/:/mnt/d/Qt/Qt-6.10.2-Static/bin:/mnt/d/opencv_prebuild/opencv/build/bin/Release:/mnt/d/Tools/opencv-install/x64/mingw/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Node.js/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/GnuWin32/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/wenbin/AppData/Local/pnpm/bin:/mnt/c/Users/wenbin/.espressif/eim_gui:/mnt/c/Users/wenbin/scoop/apps/python/current/Scripts:/mnt/c/Users/wenbin/scoop/apps/python/current:/mnt/c/Users/wenbin/scoop/shims:/mnt/c/Users/wenbin/scoop:/mnt/c/Users/wenbin/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/PyCharm Community Edition 2024.2.1/bin:/mnt/c/Users/wenbin/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/wenbin/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Users/wenbin/AppData/Roaming/npm:/mnt/c/Users/wenbin/.dotnet/tools:/snap/bin:/mnt/d/trae/Trae\\ CN/bin:/mnt/d/trae/Trae\\ CN/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '10589'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'C.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-pro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-1a7a97ab23f24decbdd526f120ffa63b'), ('MXC_BIN_DIR', '/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node_modules/@microsoft/mxc-sdk/bin'), ('ELECTRON_RUN_AS_NODE', '1'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'd9008393-0077-458c-8331-515512e99ddc'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/home/abin/nav_lecture4_hw/build/nav_hw_interfaces'), ('GEMINI_API_KEY', 'AIzaSyB8I3FRlkOawu2ZgdGHKhfeGCBWxy3DQmw'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/abin/.vscode-server/extensions/anthropic.claude-code-2.1.269-linux-x64/resources/native-binary/claude'), ('CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('HOSTTYPE', 'x86_64'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/10589.sock'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.290117] (nav_hw_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.290396] (nav_hw_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.291144] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/ament_index/resource_index/rosidl_interfaces/nav_hw_interfaces\n'}
+[11.297346] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__functions.h\n'}
+[11.302403] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__struct.h\n'}
+[11.307404] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__type_support.h\n'}
+[11.312481] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__functions.h\n'}
+[11.317575] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__struct.h\n'}
+[11.323079] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.h\n'}
+[11.328594] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__functions.h\n'}
+[11.333741] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__struct.h\n'}
+[11.338702] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__type_support.h\n'}
+[11.344213] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/robot_status.h\n'}
+[11.349428] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.355182] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/sensor_data.h\n'}
+[11.360511] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/waypoint.h\n'}
+[11.366152] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/library_path.sh\n'}
+[11.371192] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/library_path.dsv\n'}
+[11.376502] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[11.376595] (-) TimerEvent: {}
+[11.381546] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[11.386446] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[11.391626] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.397083] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[11.402385] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[11.407600] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h\n'}
+[11.412794] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.418481] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__builder.hpp\n'}
+[11.423941] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__struct.hpp\n'}
+[11.428875] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__traits.hpp\n'}
+[11.433673] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__type_support.hpp\n'}
+[11.438433] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__builder.hpp\n'}
+[11.443592] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__struct.hpp\n'}
+[11.448746] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__traits.hpp\n'}
+[11.453932] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.hpp\n'}
+[11.459066] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__builder.hpp\n'}
+[11.464349] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__struct.hpp\n'}
+[11.469654] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__traits.hpp\n'}
+[11.474690] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__type_support.hpp\n'}
+[11.476927] (-) TimerEvent: {}
+[11.479726] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/robot_status.hpp\n'}
+[11.484893] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.489806] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/sensor_data.hpp\n'}
+[11.494934] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/waypoint.hpp\n'}
+[11.500366] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.505541] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.510684] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.515621] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.520763] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.525745] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.530697] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.535701] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/pythonpath.sh\n'}
+[11.540589] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/pythonpath.dsv\n'}
+[11.545813] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.550605] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.555567] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.560465] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.565964] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/__init__.py\n'}
+[11.570988] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.575903] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.577185] (-) TimerEvent: {}
+[11.580653] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.585484] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/libnav_hw_interfaces__rosidl_generator_py.so\n'}
+[11.591085] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/__init__.py\n'}
+[11.597469] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_robot_status.py\n'}
+[11.603623] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_robot_status_s.c\n'}
+[11.609404] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_sensor_data.py\n'}
+[11.617252] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_sensor_data_s.c\n'}
+[11.623040] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_waypoint.py\n'}
+[11.628186] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_waypoint_s.c\n'}
+[11.633312] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.638531] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.643696] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.649095] (nav_hw_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.649209] (nav_hw_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.649459] (nav_hw_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.649526] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/ament_index/resource_index/rust_packages/nav_hw_interfaces\n'}
+[11.654578] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/Cargo.toml\n'}
+[11.659626] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/build.rs\n'}
+[11.664874] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/lib.rs\n'}
+[11.669795] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/msg.rs\n'}
+[11.677740] (-) TimerEvent: {}
+[11.677934] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/msg/rmw.rs\n'}
+[11.683434] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/RobotStatus.idl\n'}
+[11.688488] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/SensorData.idl\n'}
+[11.693593] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/Waypoint.idl\n'}
+[11.698468] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/RobotStatus.msg\n'}
+[11.703741] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/SensorData.msg\n'}
+[11.708804] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/Waypoint.msg\n'}
+[11.714167] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/ament_index/resource_index/package_run_dependencies/nav_hw_interfaces\n'}
+[11.720105] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/ament_index/resource_index/parent_prefix_path/nav_hw_interfaces\n'}
+[11.725127] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/ament_prefix_path.sh\n'}
+[11.730630] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.736208] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/path.sh\n'}
+[11.743588] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/path.dsv\n'}
+[11.749007] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.bash\n'}
+[11.754202] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.sh\n'}
+[11.759144] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.zsh\n'}
+[11.764491] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.dsv\n'}
+[11.770198] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv\n'}
+[11.775912] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/ament_index/resource_index/packages/nav_hw_interfaces\n'}
+[11.777996] (-) TimerEvent: {}
+[11.781766] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.787302] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.792391] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.797312] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.802330] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.807324] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.812295] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.817522] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[11.822317] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfacesConfig.cmake\n'}
+[11.827182] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfacesConfig-version.cmake\n'}
+[11.831974] (nav_hw_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/package.xml\n'}
+[11.837163] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_c.so\n'}
+[11.837374] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.837435] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.837564] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.837639] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.837825] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.837889] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_c.so\n'}
+[11.838081] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.838147] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.838338] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.838607] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.838681] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.838747] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.838956] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.863632] (nav_hw_interfaces) StdoutLine: {'line': b"Listing '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces'...\n"}
+[11.863744] (nav_hw_interfaces) StdoutLine: {'line': b"Compiling '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/__init__.py'...\n"}
+[11.863778] (nav_hw_interfaces) StdoutLine: {'line': b"Listing '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg'...\n"}
+[11.863800] (nav_hw_interfaces) StdoutLine: {'line': b"Compiling '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/__init__.py'...\n"}
+[11.863822] (nav_hw_interfaces) StdoutLine: {'line': b"Compiling '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_robot_status.py'...\n"}
+[11.863844] (nav_hw_interfaces) StdoutLine: {'line': b"Compiling '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_sensor_data.py'...\n"}
+[11.863864] (nav_hw_interfaces) StdoutLine: {'line': b"Compiling '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_waypoint.py'...\n"}
+[11.866325] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_py.so\n'}
+[11.866519] (nav_hw_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.866784] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.866996] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.867082] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.867128] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.867176] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.867353] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.867458] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.867532] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.867611] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.867785] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.867899] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.867985] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.868056] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.868138] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.868288] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.868336] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.868364] (nav_hw_interfaces) StdoutLine: {'line': b'-- Installing: /home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.869732] (nav_hw_interfaces) CommandEnded: {'returncode': 0}
+[11.878379] (-) TimerEvent: {}
+[11.893823] (nav_hw_interfaces) JobEnded: {'identifier': 'nav_hw_interfaces', 'rc': 0}
+[11.894321] (qos_debugger) JobStarted: {'identifier': 'qos_debugger'}
+[11.979177] (-) TimerEvent: {}
+[12.079816] (-) TimerEvent: {}
+[12.180175] (-) TimerEvent: {}
+[12.280554] (-) TimerEvent: {}
+[12.380887] (-) TimerEvent: {}
+[12.481275] (-) TimerEvent: {}
+[12.586530] (-) TimerEvent: {}
+[12.611781] (qos_debugger) JobProgress: {'identifier': 'qos_debugger', 'progress': 'cmake'}
+[12.613067] (qos_debugger) Command: {'cmd': ['/usr/bin/cmake', '/home/abin/nav_lecture4_hw/src/qos_debugger', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/abin/nav_lecture4_hw/install/qos_debugger'], 'cwd': '/home/abin/nav_lecture4_hw/build/qos_debugger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/d/vscode/Microsoft VS Code'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-269_agent'), ('USER', 'abin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/wenbin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.269'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '381db5bbf5ca21a5b23e52265d771945'), ('HOME', '/home/abin'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('NVM_BIN', '/home/abin/.nvm/versions/node/v22.23.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5c643ca7-aa83-4286-8ab6-71fb963d668e.sock'), ('NVM_INC', '/home/abin/.nvm/versions/node/v22.23.2/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('ROS_PYTHON_VERSION', '3'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('ANTHROPIC_SMALL_FAST_MODEL', 'deepseek-v4-pro'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/abin/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('API_TIMEOUT_MS', '600000'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/7705_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/abin/.local/bin:/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/abin/.local/bin:/home/abin/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Opencv/dep/bin/x64:/mnt/d/Opencv/dep/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/Miniconda3:/mnt/c/ProgramData/Miniconda3/Scripts:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/Tools/pkg-config/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.0/:/mnt/d/Qt/Qt-6.10.2-Static/bin:/mnt/d/opencv_prebuild/opencv/build/bin/Release:/mnt/d/Tools/opencv-install/x64/mingw/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Node.js/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/GnuWin32/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/wenbin/AppData/Local/pnpm/bin:/mnt/c/Users/wenbin/.espressif/eim_gui:/mnt/c/Users/wenbin/scoop/apps/python/current/Scripts:/mnt/c/Users/wenbin/scoop/apps/python/current:/mnt/c/Users/wenbin/scoop/shims:/mnt/c/Users/wenbin/scoop:/mnt/c/Users/wenbin/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/PyCharm Community Edition 2024.2.1/bin:/mnt/c/Users/wenbin/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/wenbin/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Users/wenbin/AppData/Roaming/npm:/mnt/c/Users/wenbin/.dotnet/tools:/snap/bin:/mnt/d/trae/Trae\\ CN/bin:/mnt/d/trae/Trae\\ CN/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '10589'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'C.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-pro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-1a7a97ab23f24decbdd526f120ffa63b'), ('MXC_BIN_DIR', '/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node_modules/@microsoft/mxc-sdk/bin'), ('ELECTRON_RUN_AS_NODE', '1'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'd9008393-0077-458c-8331-515512e99ddc'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/home/abin/nav_lecture4_hw/build/qos_debugger'), ('GEMINI_API_KEY', 'AIzaSyB8I3FRlkOawu2ZgdGHKhfeGCBWxy3DQmw'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/abin/.vscode-server/extensions/anthropic.claude-code-2.1.269-linux-x64/resources/native-binary/claude'), ('CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC', '1'), ('PYTHONPATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('HOSTTYPE', 'x86_64'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/10589.sock'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble')]), 'shell': False}
+[12.693912] (-) TimerEvent: {}
+[12.794590] (-) TimerEvent: {}
+[12.903274] (-) TimerEvent: {}
+[13.009275] (-) TimerEvent: {}
+[13.119559] (-) TimerEvent: {}
+[13.229227] (-) TimerEvent: {}
+[13.331431] (-) TimerEvent: {}
+[13.392207] (qos_debugger) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.435592] (-) TimerEvent: {}
+[13.539486] (-) TimerEvent: {}
+[13.649674] (-) TimerEvent: {}
+[13.758177] (-) TimerEvent: {}
+[13.867909] (-) TimerEvent: {}
+[13.969043] (-) TimerEvent: {}
+[14.079269] (-) TimerEvent: {}
+[14.181520] (-) TimerEvent: {}
+[14.291751] (-) TimerEvent: {}
+[14.394614] (-) TimerEvent: {}
+[14.504795] (-) TimerEvent: {}
+[14.608205] (-) TimerEvent: {}
+[14.717050] (-) TimerEvent: {}
+[14.817476] (-) TimerEvent: {}
+[14.921148] (-) TimerEvent: {}
+[15.015900] (qos_debugger) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[15.021531] (-) TimerEvent: {}
+[15.128961] (-) TimerEvent: {}
+[15.234291] (-) TimerEvent: {}
+[15.339642] (-) TimerEvent: {}
+[15.446310] (-) TimerEvent: {}
+[15.551668] (-) TimerEvent: {}
+[15.660565] (-) TimerEvent: {}
+[15.765692] (-) TimerEvent: {}
+[15.866224] (-) TimerEvent: {}
+[15.971995] (-) TimerEvent: {}
+[16.079743] (-) TimerEvent: {}
+[16.181303] (-) TimerEvent: {}
+[16.225538] (qos_debugger) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[16.281656] (-) TimerEvent: {}
+[16.382754] (-) TimerEvent: {}
+[16.483803] (-) TimerEvent: {}
+[16.592481] (-) TimerEvent: {}
+[16.625770] (qos_debugger) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[16.629937] (qos_debugger) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.630067] (qos_debugger) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[16.630315] (qos_debugger) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[16.632378] (qos_debugger) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.692772] (-) TimerEvent: {}
+[16.793305] (-) TimerEvent: {}
+[16.893784] (-) TimerEvent: {}
+[17.001992] (-) TimerEvent: {}
+[17.042798] (qos_debugger) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.047125] (qos_debugger) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.047278] (qos_debugger) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.047628] (qos_debugger) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.048823] (qos_debugger) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.102425] (-) TimerEvent: {}
+[17.142302] (qos_debugger) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[17.186159] (qos_debugger) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[17.203126] (-) TimerEvent: {}
+[17.211762] (qos_debugger) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[17.304118] (-) TimerEvent: {}
+[17.407184] (-) TimerEvent: {}
+[17.510472] (-) TimerEvent: {}
+[17.616317] (-) TimerEvent: {}
+[17.638594] (qos_debugger) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.640900] (qos_debugger) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.645578] (qos_debugger) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.651817] (qos_debugger) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.660995] (qos_debugger) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.702138] (qos_debugger) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.704666] (qos_debugger) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.717556] (-) TimerEvent: {}
+[17.818379] (-) TimerEvent: {}
+[17.924132] (-) TimerEvent: {}
+[18.027591] (-) TimerEvent: {}
+[18.128030] (-) TimerEvent: {}
+[18.228601] (-) TimerEvent: {}
+[18.329005] (-) TimerEvent: {}
+[18.431123] (-) TimerEvent: {}
+[18.531363] (-) TimerEvent: {}
+[18.631637] (-) TimerEvent: {}
+[18.736195] (-) TimerEvent: {}
+[18.846165] (-) TimerEvent: {}
+[18.946851] (-) TimerEvent: {}
+[19.056206] (-) TimerEvent: {}
+[19.156857] (-) TimerEvent: {}
+[19.267073] (-) TimerEvent: {}
+[19.370410] (-) TimerEvent: {}
+[19.470888] (-) TimerEvent: {}
+[19.576739] (-) TimerEvent: {}
+[19.680343] (-) TimerEvent: {}
+[19.790533] (-) TimerEvent: {}
+[19.900797] (-) TimerEvent: {}
+[20.010301] (-) TimerEvent: {}
+[20.120089] (-) TimerEvent: {}
+[20.230276] (-) TimerEvent: {}
+[20.340499] (-) TimerEvent: {}
+[20.443706] (-) TimerEvent: {}
+[20.554059] (-) TimerEvent: {}
+[20.656000] (-) TimerEvent: {}
+[20.765432] (-) TimerEvent: {}
+[20.875623] (-) TimerEvent: {}
+[20.976033] (-) TimerEvent: {}
+[21.082451] (-) TimerEvent: {}
+[21.192303] (-) TimerEvent: {}
+[21.298874] (-) TimerEvent: {}
+[21.400850] (-) TimerEvent: {}
+[21.501346] (-) TimerEvent: {}
+[21.609384] (-) TimerEvent: {}
+[21.711145] (-) TimerEvent: {}
+[21.821364] (-) TimerEvent: {}
+[21.925562] (-) TimerEvent: {}
+[22.026889] (-) TimerEvent: {}
+[22.131514] (-) TimerEvent: {}
+[22.232995] (-) TimerEvent: {}
+[22.335988] (-) TimerEvent: {}
+[22.377994] (qos_debugger) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[22.436875] (-) TimerEvent: {}
+[22.541353] (-) TimerEvent: {}
+[22.651527] (-) TimerEvent: {}
+[22.757972] (-) TimerEvent: {}
+[22.867864] (-) TimerEvent: {}
+[22.971311] (-) TimerEvent: {}
+[23.071631] (-) TimerEvent: {}
+[23.180826] (-) TimerEvent: {}
+[23.290732] (-) TimerEvent: {}
+[23.391670] (-) TimerEvent: {}
+[23.491965] (-) TimerEvent: {}
+[23.592282] (-) TimerEvent: {}
+[23.697425] (-) TimerEvent: {}
+[23.805070] (-) TimerEvent: {}
+[23.909722] (-) TimerEvent: {}
+[24.010201] (-) TimerEvent: {}
+[24.113866] (-) TimerEvent: {}
+[24.223802] (-) TimerEvent: {}
+[24.333731] (-) TimerEvent: {}
+[24.438690] (-) TimerEvent: {}
+[24.548606] (-) TimerEvent: {}
+[24.652532] (-) TimerEvent: {}
+[24.754541] (-) TimerEvent: {}
+[24.864503] (-) TimerEvent: {}
+[24.974617] (-) TimerEvent: {}
+[25.074781] (-) TimerEvent: {}
+[25.176562] (-) TimerEvent: {}
+[25.286535] (-) TimerEvent: {}
+[25.386825] (-) TimerEvent: {}
+[25.487026] (-) TimerEvent: {}
+[25.587271] (-) TimerEvent: {}
+[25.689496] (-) TimerEvent: {}
+[25.794533] (-) TimerEvent: {}
+[25.904537] (-) TimerEvent: {}
+[26.011783] (-) TimerEvent: {}
+[26.113803] (-) TimerEvent: {}
+[26.223832] (-) TimerEvent: {}
+[26.333811] (-) TimerEvent: {}
+[26.437811] (-) TimerEvent: {}
+[26.542656] (-) TimerEvent: {}
+[26.650006] (-) TimerEvent: {}
+[26.755434] (-) TimerEvent: {}
+[26.864662] (-) TimerEvent: {}
+[26.967315] (-) TimerEvent: {}
+[27.075043] (-) TimerEvent: {}
+[27.185092] (-) TimerEvent: {}
+[27.290635] (-) TimerEvent: {}
+[27.400634] (-) TimerEvent: {}
+[27.501013] (-) TimerEvent: {}
+[27.604303] (-) TimerEvent: {}
+[27.692422] (qos_debugger) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[27.704958] (-) TimerEvent: {}
+[27.808672] (-) TimerEvent: {}
+[27.917879] (-) TimerEvent: {}
+[28.018531] (-) TimerEvent: {}
+[28.127278] (-) TimerEvent: {}
+[28.236452] (-) TimerEvent: {}
+[28.337055] (-) TimerEvent: {}
+[28.439966] (-) TimerEvent: {}
+[28.542050] (-) TimerEvent: {}
+[28.648117] (-) TimerEvent: {}
+[28.757258] (-) TimerEvent: {}
+[28.865079] (-) TimerEvent: {}
+[28.966724] (-) TimerEvent: {}
+[29.069435] (-) TimerEvent: {}
+[29.178657] (-) TimerEvent: {}
+[29.278878] (-) TimerEvent: {}
+[29.387976] (-) TimerEvent: {}
+[29.495081] (-) TimerEvent: {}
+[29.596613] (-) TimerEvent: {}
+[29.697065] (-) TimerEvent: {}
+[29.798668] (-) TimerEvent: {}
+[29.907476] (-) TimerEvent: {}
+[30.012613] (-) TimerEvent: {}
+[30.118027] (-) TimerEvent: {}
+[30.227196] (-) TimerEvent: {}
+[30.336373] (-) TimerEvent: {}
+[30.438264] (-) TimerEvent: {}
+[30.538600] (-) TimerEvent: {}
+[30.639609] (-) TimerEvent: {}
+[30.748847] (-) TimerEvent: {}
+[30.852479] (-) TimerEvent: {}
+[30.961672] (-) TimerEvent: {}
+[31.062131] (-) TimerEvent: {}
+[31.171009] (-) TimerEvent: {}
+[31.280247] (-) TimerEvent: {}
+[31.383810] (-) TimerEvent: {}
+[31.489756] (-) TimerEvent: {}
+[31.591694] (-) TimerEvent: {}
+[31.696584] (-) TimerEvent: {}
+[31.796969] (-) TimerEvent: {}
+[31.901687] (-) TimerEvent: {}
+[32.005503] (-) TimerEvent: {}
+[32.108463] (-) TimerEvent: {}
+[32.217679] (-) TimerEvent: {}
+[32.326985] (-) TimerEvent: {}
+[32.427386] (-) TimerEvent: {}
+[32.535750] (-) TimerEvent: {}
+[32.637886] (-) TimerEvent: {}
+[32.747158] (-) TimerEvent: {}
+[32.849364] (-) TimerEvent: {}
+[32.958465] (-) TimerEvent: {}
+[33.067347] (-) TimerEvent: {}
+[33.176576] (-) TimerEvent: {}
+[33.285816] (-) TimerEvent: {}
+[33.389341] (-) TimerEvent: {}
+[33.495170] (-) TimerEvent: {}
+[33.604384] (-) TimerEvent: {}
+[33.704747] (-) TimerEvent: {}
+[33.813965] (-) TimerEvent: {}
+[33.923276] (-) TimerEvent: {}
+[34.033376] (-) TimerEvent: {}
+[34.142616] (-) TimerEvent: {}
+[34.251853] (-) TimerEvent: {}
+[34.361112] (-) TimerEvent: {}
+[34.465101] (-) TimerEvent: {}
+[34.567433] (-) TimerEvent: {}
+[34.676668] (-) TimerEvent: {}
+[34.784297] (-) TimerEvent: {}
+[34.888978] (-) TimerEvent: {}
+[34.998320] (-) TimerEvent: {}
+[35.103765] (-) TimerEvent: {}
+[35.213093] (-) TimerEvent: {}
+[35.322339] (-) TimerEvent: {}
+[35.425748] (-) TimerEvent: {}
+[35.526230] (-) TimerEvent: {}
+[35.585477] (qos_debugger) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[35.600190] (qos_debugger) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[35.628792] (-) TimerEvent: {}
+[35.730005] (-) TimerEvent: {}
+[35.839260] (-) TimerEvent: {}
+[35.939530] (-) TimerEvent: {}
+[36.044203] (-) TimerEvent: {}
+[36.154383] (-) TimerEvent: {}
+[36.171825] (qos_debugger) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[36.172358] (qos_debugger) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[36.262822] (-) TimerEvent: {}
+[36.373022] (-) TimerEvent: {}
+[36.476600] (-) TimerEvent: {}
+[36.580000] (-) TimerEvent: {}
+[36.636474] (qos_debugger) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[36.637307] (qos_debugger) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.684428] (-) TimerEvent: {}
+[36.698010] (qos_debugger) StdoutLine: {'line': b'-- Found nav_hw_interfaces: 0.0.0 (/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake)\n'}
+[36.711766] (qos_debugger) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[36.778402] (qos_debugger) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[36.778555] (qos_debugger) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[36.778587] (qos_debugger) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[36.779796] (qos_debugger) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[36.781205] (qos_debugger) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[36.781248] (qos_debugger) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[36.781900] (qos_debugger) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.783220] (qos_debugger) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.784642] (-) TimerEvent: {}
+[36.793850] (qos_debugger) StdoutLine: {'line': b'-- Generating done\n'}
+[36.800345] (qos_debugger) StdoutLine: {'line': b'-- Build files have been written to: /home/abin/nav_lecture4_hw/build/qos_debugger\n'}
+[36.807615] (qos_debugger) CommandEnded: {'returncode': 0}
+[36.808135] (qos_debugger) JobProgress: {'identifier': 'qos_debugger', 'progress': 'build'}
+[36.808685] (qos_debugger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abin/nav_lecture4_hw/build/qos_debugger', '--', '-j24', '-l24'], 'cwd': '/home/abin/nav_lecture4_hw/build/qos_debugger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/mnt/d/vscode/Microsoft VS Code'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-269_agent'), ('USER', 'abin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_WSL_EXT_LOCATION', '/mnt/c/Users/wenbin/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.269'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '381db5bbf5ca21a5b23e52265d771945'), ('HOME', '/home/abin'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('NVM_BIN', '/home/abin/.nvm/versions/node/v22.23.2/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5c643ca7-aa83-4286-8ab6-71fb963d668e.sock'), ('NVM_INC', '/home/abin/.nvm/versions/node/v22.23.2/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('ROS_PYTHON_VERSION', '3'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('ANTHROPIC_SMALL_FAST_MODEL', 'deepseek-v4-pro'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/abin/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('API_TIMEOUT_MS', '600000'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/7705_interop'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/abin/.local/bin:/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/abin/.local/bin:/home/abin/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Opencv/dep/bin/x64:/mnt/d/Opencv/dep/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/python:/mnt/c/Program Files/python/Scripts:/mnt/d/BtSoft/panel/script:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/ProgramData/Miniconda3:/mnt/c/ProgramData/Miniconda3/Scripts:/mnt/d/cmake/bin:/mnt/d/git/Git/cmd:/mnt/d/Tools/pkg-config/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2026.1.0/:/mnt/d/Qt/Qt-6.10.2-Static/bin:/mnt/d/opencv_prebuild/opencv/build/bin/Release:/mnt/d/Tools/opencv-install/x64/mingw/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/Node.js/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/GnuWin32/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/wenbin/AppData/Local/pnpm/bin:/mnt/c/Users/wenbin/.espressif/eim_gui:/mnt/c/Users/wenbin/scoop/apps/python/current/Scripts:/mnt/c/Users/wenbin/scoop/apps/python/current:/mnt/c/Users/wenbin/scoop/shims:/mnt/c/Users/wenbin/scoop:/mnt/c/Users/wenbin/AppData/Local/Microsoft/WindowsApps:/mnt/d/pycharm/PyCharm Community Edition 2024.2.1/bin:/mnt/c/Users/wenbin/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/wenbin/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.0.1/bin:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/d/Tools/Cmake/cmake-4.3.1-windows-x86_64/bin:/mnt/d/Tools/mingw64/bin:/mnt/c/Users/wenbin/AppData/Roaming/npm:/mnt/c/Users/wenbin/.dotnet/tools:/snap/bin:/mnt/d/trae/Trae\\ CN/bin:/mnt/d/trae/Trae\\ CN/bin'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '10589'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'C.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-pro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-1a7a97ab23f24decbdd526f120ffa63b'), ('MXC_BIN_DIR', '/home/abin/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node_modules/@microsoft/mxc-sdk/bin'), ('ELECTRON_RUN_AS_NODE', '1'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'd9008393-0077-458c-8331-515512e99ddc'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('PWD', '/home/abin/nav_lecture4_hw/build/qos_debugger'), ('GEMINI_API_KEY', 'AIzaSyB8I3FRlkOawu2ZgdGHKhfeGCBWxy3DQmw'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/abin/.vscode-server/extensions/anthropic.claude-code-2.1.269-linux-x64/resources/native-binary/claude'), ('CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC', '1'), ('PYTHONPATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('HOSTTYPE', 'x86_64'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/10589.sock'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/abin/nav_lecture4_hw/install/nav_hw_interfaces:/opt/ros/humble')]), 'shell': False}
+[36.840213] (qos_debugger) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o\n'}
+[36.840343] (qos_debugger) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o\n'}
+[36.849423] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:8:1: warning: multi-line comment [-Wcomment]\n'}
+[36.849556] (qos_debugger) StderrLine: {'line': b'    8 | //   ros2 run qos_debugger qos_debugger_sub \\\n'}
+[36.849592] (qos_debugger) StderrLine: {'line': b'      | ^\n'}
+[36.849620] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:4:1: warning: multi-line comment [-Wcomment]\n'}
+[36.849644] (qos_debugger) StderrLine: {'line': b'    4 | //   ros2 run qos_debugger qos_debugger_pub \\\n'}
+[36.849668] (qos_debugger) StderrLine: {'line': b'      | ^\n'}
+[36.884956] (-) TimerEvent: {}
+[36.985407] (-) TimerEvent: {}
+[37.087248] (-) TimerEvent: {}
+[37.189621] (-) TimerEvent: {}
+[37.290125] (-) TimerEvent: {}
+[37.392349] (-) TimerEvent: {}
+[37.492696] (-) TimerEvent: {}
+[37.593318] (-) TimerEvent: {}
+[37.693831] (-) TimerEvent: {}
+[37.794439] (-) TimerEvent: {}
+[37.903010] (-) TimerEvent: {}
+[38.005582] (-) TimerEvent: {}
+[38.115783] (-) TimerEvent: {}
+[38.220500] (-) TimerEvent: {}
+[38.326084] (-) TimerEvent: {}
+[38.430605] (-) TimerEvent: {}
+[38.537930] (-) TimerEvent: {}
+[38.623970] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp: In constructor \xe2\x80\x98SensorPublisher::SensorPublisher()\xe2\x80\x99:\n'}
+[38.624108] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:35:20: warning: parentheses were disambiguated as a function declaration [-Wvexing-parse]\n'}
+[38.624141] (qos_debugger) StderrLine: {'line': b'   35 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));\n'}
+[38.624167] (qos_debugger) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[38.624614] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:35:20: note: replace parentheses with braces to declare a variable\n'}
+[38.624712] (qos_debugger) StderrLine: {'line': b'   35 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));\n'}
+[38.624744] (qos_debugger) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[38.624823] (qos_debugger) StderrLine: {'line': b'      |                    -\n'}
+[38.624887] (qos_debugger) StderrLine: {'line': b'      |                    {                       -\n'}
+[38.624972] (qos_debugger) StderrLine: {'line': b'      |                                            }\n'}
+[38.625296] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:37:11: error: request for member \xe2\x80\x98reliability\xe2\x80\x99 in \xe2\x80\x98qos\xe2\x80\x99, which is of non-class type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99\n'}
+[38.625336] (qos_debugger) StderrLine: {'line': b'   37 |       qos.reliability(rclcpp::ReliabilityPolicy::BestEffort);\n'}
+[38.625373] (qos_debugger) StderrLine: {'line': b'      |           ^~~~~~~~~~~\n'}
+[38.625400] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:39:11: error: request for member \xe2\x80\x98reliability\xe2\x80\x99 in \xe2\x80\x98qos\xe2\x80\x99, which is of non-class type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99\n'}
+[38.625426] (qos_debugger) StderrLine: {'line': b'   39 |       qos.reliability(rclcpp::ReliabilityPolicy::Reliable);\n'}
+[38.625451] (qos_debugger) StderrLine: {'line': b'      |           ^~~~~~~~~~~\n'}
+[38.625475] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:42:76: error: no matching function for call to \xe2\x80\x98SensorPublisher::create_publisher<nav_hw_interfaces::msg::SensorData>(const char [12], rclcpp::QoS (&)(rclcpp::KeepLast))\xe2\x80\x99\n'}
+[38.625500] (qos_debugger) StderrLine: {'line': b'   42 |     publisher_ = this->create_publisher<nav_hw_interfaces::msg::SensorData>("sensor_data", qos);\n'}
+[38.625524] (qos_debugger) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[38.625547] (qos_debugger) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,\n'}
+[38.625573] (qos_debugger) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,\n'}
+[38.625596] (qos_debugger) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[38.625619] (qos_debugger) StderrLine: {'line': b'                 from /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:15:\n'}
+[38.625642] (qos_debugger) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3: note: candidate: \xe2\x80\x98template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\xe2\x80\x99\n'}
+[38.625668] (qos_debugger) StderrLine: {'line': b'  195 |   create_publisher(\n'}
+[38.625691] (qos_debugger) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~\n'}
+[38.625714] (qos_debugger) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3: note:   template argument deduction/substitution failed:\n'}
+[38.625740] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_pub.cpp:42:92: note:   cannot convert \xe2\x80\x98qos\xe2\x80\x99 (type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99) to type \xe2\x80\x98const rclcpp::QoS&\xe2\x80\x99\n'}
+[38.625769] (qos_debugger) StderrLine: {'line': b'   42 |     publisher_ = this->create_publisher<nav_hw_interfaces::msg::SensorData>("sensor_data", qos);\n'}
+[38.625792] (qos_debugger) StderrLine: {'line': b'      |                                                                                            ^~~\n'}
+[38.639261] (-) TimerEvent: {}
+[38.641575] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp: In constructor \xe2\x80\x98SensorSubscriber::SensorSubscriber()\xe2\x80\x99:\n'}
+[38.641694] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:37:20: warning: parentheses were disambiguated as a function declaration [-Wvexing-parse]\n'}
+[38.641725] (qos_debugger) StderrLine: {'line': b'   37 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));\n'}
+[38.641751] (qos_debugger) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[38.641776] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:37:20: note: replace parentheses with braces to declare a variable\n'}
+[38.641801] (qos_debugger) StderrLine: {'line': b'   37 |     rclcpp::QoS qos(rclcpp::KeepLast(depth));\n'}
+[38.641823] (qos_debugger) StderrLine: {'line': b'      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[38.641845] (qos_debugger) StderrLine: {'line': b'      |                    -\n'}
+[38.641868] (qos_debugger) StderrLine: {'line': b'      |                    {                       -\n'}
+[38.641889] (qos_debugger) StderrLine: {'line': b'      |                                            }\n'}
+[38.641920] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:39:11: error: request for member \xe2\x80\x98reliability\xe2\x80\x99 in \xe2\x80\x98qos\xe2\x80\x99, which is of non-class type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99\n'}
+[38.642025] (qos_debugger) StderrLine: {'line': b'   39 |       qos.reliability(rclcpp::ReliabilityPolicy::BestEffort);\n'}
+[38.642051] (qos_debugger) StderrLine: {'line': b'      |           ^~~~~~~~~~~\n'}
+[38.642075] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:41:11: error: request for member \xe2\x80\x98reliability\xe2\x80\x99 in \xe2\x80\x98qos\xe2\x80\x99, which is of non-class type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99\n'}
+[38.642099] (qos_debugger) StderrLine: {'line': b'   41 |       qos.reliability(rclcpp::ReliabilityPolicy::Reliable);\n'}
+[38.642123] (qos_debugger) StderrLine: {'line': b'      |           ^~~~~~~~~~~\n'}
+[38.644932] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:44:82: error: no matching function for call to \xe2\x80\x98SensorSubscriber::create_subscription<nav_hw_interfaces::msg::SensorData>(const char [12], rclcpp::QoS (&)(rclcpp::KeepLast), std::_Bind_helper<false, void (SensorSubscriber::*)(std::shared_ptr<nav_hw_interfaces::msg::SensorData_<std::allocator<void> > >), SensorSubscriber*, const std::_Placeholder<1>&>::type)\xe2\x80\x99\n'}
+[38.645043] (qos_debugger) StderrLine: {'line': b'   44 |     subscription_ = this->create_subscription<nav_hw_interfaces::msg::SensorData>(\n'}
+[38.645074] (qos_debugger) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[38.645100] (qos_debugger) StderrLine: {'line': b'   45 |       "sensor_data", qos,\n'}
+[38.645125] (qos_debugger) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~                                                         \n'}
+[38.645148] (qos_debugger) StderrLine: {'line': b'   46 |       std::bind(&SensorSubscriber::topic_callback, this, std::placeholders::_1));\n'}
+[38.645178] (qos_debugger) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n'}
+[38.645200] (qos_debugger) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,\n'}
+[38.645223] (qos_debugger) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22,\n'}
+[38.645247] (qos_debugger) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[38.645269] (qos_debugger) StderrLine: {'line': b'                 from /home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:18:\n'}
+[38.645291] (qos_debugger) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3: note: candidate: \xe2\x80\x98template<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\xe2\x80\x99\n'}
+[38.645316] (qos_debugger) StderrLine: {'line': b'  219 |   create_subscription(\n'}
+[38.645339] (qos_debugger) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~\n'}
+[38.645362] (qos_debugger) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3: note:   template argument deduction/substitution failed:\n'}
+[38.645384] (qos_debugger) StderrLine: {'line': b'/home/abin/nav_lecture4_hw/src/qos_debugger/src/qos_debugger_sub.cpp:45:22: note:   cannot convert \xe2\x80\x98qos\xe2\x80\x99 (type \xe2\x80\x98rclcpp::QoS(rclcpp::KeepLast)\xe2\x80\x99) to type \xe2\x80\x98const rclcpp::QoS&\xe2\x80\x99\n'}
+[38.645409] (qos_debugger) StderrLine: {'line': b'   45 |       "sensor_data", qos,\n'}
+[38.645431] (qos_debugger) StderrLine: {'line': b'      |                      ^~~\n'}
+[38.740710] (-) TimerEvent: {}
+[38.848155] (-) TimerEvent: {}
+[38.958389] (-) TimerEvent: {}
+[38.974870] (qos_debugger) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qos_debugger_sub.dir/build.make:76: CMakeFiles/qos_debugger_sub.dir/src/qos_debugger_sub.cpp.o] Error 1\n'}
+[38.975133] (qos_debugger) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/qos_debugger_sub.dir/all] Error 2\n'}
+[38.975214] (qos_debugger) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[39.019475] (qos_debugger) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qos_debugger_pub.dir/build.make:76: CMakeFiles/qos_debugger_pub.dir/src/qos_debugger_pub.cpp.o] Error 1\n'}
+[39.019603] (qos_debugger) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/qos_debugger_pub.dir/all] Error 2\n'}
+[39.019635] (qos_debugger) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[39.020640] (qos_debugger) CommandEnded: {'returncode': 2}
+[39.024195] (qos_debugger) JobEnded: {'identifier': 'qos_debugger', 'rc': 2}
+[39.034900] (-) EventReactorShutdown: {}
