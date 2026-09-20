@@ -1,0 +1,33 @@
+# ===== ROS 2 / colcon 构建产物（必须忽略）=====
+build/
+install/
+log/
+
+# ===== CMake / C++ 构建产物 =====
+compile_commands.json
+.cache/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ===== Python 产物 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build_isolated/
+devel_isolated/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
