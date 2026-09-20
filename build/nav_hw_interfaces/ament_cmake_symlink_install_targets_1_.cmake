@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_generator_py/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "nav_hw_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/nav_hw_interfaces")

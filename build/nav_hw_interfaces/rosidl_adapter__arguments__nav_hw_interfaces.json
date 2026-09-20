@@ -1,6 +1,0 @@
-{
-  "package_name": "nav_hw_interfaces",
-  "non_idl_tuples": [
-    "/home/abin/nav_lecture4_hw/src/nav_hw_interfaces:msg/SensorData.msg"
-  ]
-}

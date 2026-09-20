@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_generator_py/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_introspection_c.c

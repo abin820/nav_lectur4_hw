@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_generator_c/nav_hw_interfaces/msg/rosidl_generator_c__visibility_control.h

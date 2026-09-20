@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/qos_debugger/ament_cmake_environment_hooks/local_setup.zsh

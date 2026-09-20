@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/ament_cmake_core/nav_hw_interfacesConfig.cmake

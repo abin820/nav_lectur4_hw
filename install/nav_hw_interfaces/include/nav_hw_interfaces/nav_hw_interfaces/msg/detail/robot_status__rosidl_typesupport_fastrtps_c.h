@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_typesupport_fastrtps_c/nav_hw_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h

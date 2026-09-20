@@ -1,1 +1,0 @@
-/home/abin/nav_lecture4_hw/build/nav_hw_interfaces/rosidl_typesupport_fastrtps_cpp/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
